@@ -1,0 +1,21 @@
+<div class="container">
+    <mat-card>
+        <mat-form-field>
+            <input matInput type="text" [(ngModel)]="enteredTitle" placeholder="EnterTitle">
+        </mat-form-field>
+        <mat-form-field>
+            <textarea matInput cols="3" [(ngModel)]="enteredContent" placeholder="Enter Name"></textarea>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput cols="3" [(ngModel)]="enteredAddress" placeholder="Enter Address">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput cols="3" [(ngModel)]="enteredContact" placeholder="Enter Contact Information">
+        </mat-form-field>
+
+
+
+        <button mat-raised-button color="primary" (click)="onAddPost()">Save Post</button>
+    </mat-card>
+
+</div>

@@ -1,0 +1,13 @@
+textarea, mat-form-field {
+    width: 100%;
+    }
+    .btnOne {
+    color: rgb(215, 215, 219);
+    }
+
+.container{
+    background-color: crimson;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
